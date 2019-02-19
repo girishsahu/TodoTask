@@ -89,7 +89,9 @@ curl \
 ```
 Response
 
+
 `200 - OK`
+```json
 {
     "id": "5c6a84372bdf275b8ca78e51",
     "UserId": "5c6a73c62bdf2736badce882",
@@ -97,7 +99,7 @@ Response
     "Description": "Store data in mongo db and fetch",
     "Status": 0
 }
-
+```
 
 ## Update Task
 
@@ -120,7 +122,7 @@ curl \
 ```
 Response  
 
-`200 `
+`200 -OK`
 
 
 
@@ -142,7 +144,7 @@ curl \
 Response  
 
 `200 - OK`
-
+```
 "Task completed sucessfully"
 ```
 
@@ -165,6 +167,7 @@ Response
 
 `200 - OK`
 
+```json
 [
     {
         "id": "5c6a7b492bdf2748d56e50a9",
@@ -181,5 +184,5 @@ Response
         "Status": 0
     }
 ]
-
+```
 
